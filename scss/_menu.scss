@@ -11,9 +11,10 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: set-text-color($primary-color);
     @include easeOut;
   }
+
   // Rotate Into X With Menu Lines
   &.close {
     transform: rotate(180deg);
@@ -36,12 +37,13 @@
     }
   }
 }
+
 // Menu Overlay
 .menu {
   position: fixed;
   top: 0;
   width: 100%;
-
+  opacity: 0.9;
   visibility: hidden;
 
   &.show {
@@ -64,7 +66,6 @@
     margin: 0;
     padding: 0;
     background: darken($primary-color, 5);
-    opacity: 0.7;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     @include easeOut;
