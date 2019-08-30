@@ -212,7 +212,7 @@ header {
 .text-p {
   text-align: right;
   font-size: 40px;
-  color: #ecedf0;
+  color: #fff;
   font-family: "Kaushan Script", cursive;
   font-weight: 700; }
 
@@ -390,11 +390,17 @@ main {
       font-size: 3.8rem; }
     main .sm-heading {
       font-size: 1.6rem; }
+  .text-p {
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 700; }
   .projects {
     grid-template-columns: 1fr; }
   .boxes div {
-    font-size: 1.6rem;
-    padding: 1rem 2rem; }
+    font-size: 1.3rem;
+    padding: 0.5rem 0.5rem; }
   .resume {
     justify-content: center;
     margin-top: 30px;

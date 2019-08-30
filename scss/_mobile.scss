@@ -81,14 +81,20 @@
       font-size: 1.6rem;
     }
   }
-
+  .text-p {
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 700;
+  }
   .projects {
     grid-template-columns: 1fr;
   }
   .boxes {
     div {
-      font-size: 1.6rem;
-      padding: 1rem 2rem;
+      font-size: 1.3rem;
+      padding: 0.5rem 0.5rem;
     }
   }
   .resume {
