@@ -75,11 +75,29 @@
 
     .lg-heading {
       margin-top: 1rem;
-      font-size: 5rem;
+      font-size: 3.8rem;
+    }
+    .sm-heading {
+      font-size: 1.6rem;
     }
   }
 
   .projects {
     grid-template-columns: 1fr;
+  }
+  .boxes {
+    div {
+      font-size: 1.6rem;
+      padding: 1rem 2rem;
+    }
+  }
+  .resume {
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    div {
+      font-size: 20px;
+    }
   }
 }
